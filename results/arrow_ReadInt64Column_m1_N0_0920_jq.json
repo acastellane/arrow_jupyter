@@ -1,0 +1,774 @@
+{
+  "suites": [
+    {
+      "benchmarks": [
+        {
+          "counters": {
+            "family_index": 7,
+            "iterations": 57182,
+            "per_family_instance_index": 1,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "BM_ReadInt64Column<Repetition::OPTIONAL, Compression::LZ4>/1024/1024",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "BM_ReadInt64Column<Repetition::OPTIONAL, Compression::LZ4>/1024/1024",
+          "time_unit": "ns",
+          "times": [
+            12221.353135539553
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            837861005.836989
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 7,
+            "iterations": 48838,
+            "per_family_instance_index": 0,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "BM_ReadInt64Column<Repetition::OPTIONAL, Compression::LZ4>/1024/16",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "BM_ReadInt64Column<Repetition::OPTIONAL, Compression::LZ4>/1024/16",
+          "time_unit": "ns",
+          "times": [
+            14299.593902370701
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            716136762.1626958
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 7,
+            "iterations": 1973,
+            "per_family_instance_index": 2,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "BM_ReadInt64Column<Repetition::OPTIONAL, Compression::LZ4>/65536/1024",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "BM_ReadInt64Column<Repetition::OPTIONAL, Compression::LZ4>/65536/1024",
+          "time_unit": "ns",
+          "times": [
+            354266.60416788456
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            1849939271.1005144
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 4,
+            "iterations": 58553,
+            "per_family_instance_index": 1,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "BM_ReadInt64Column<Repetition::OPTIONAL, Compression::SNAPPY>/1024/1024",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "BM_ReadInt64Column<Repetition::OPTIONAL, Compression::SNAPPY>/1024/1024",
+          "time_unit": "ns",
+          "times": [
+            11935.974569249744
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            857896179.2312284
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 4,
+            "iterations": 49699,
+            "per_family_instance_index": 0,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "BM_ReadInt64Column<Repetition::OPTIONAL, Compression::SNAPPY>/1024/16",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "BM_ReadInt64Column<Repetition::OPTIONAL, Compression::SNAPPY>/1024/16",
+          "time_unit": "ns",
+          "times": [
+            14122.863276889248
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            725083833.0937085
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 4,
+            "iterations": 1870,
+            "per_family_instance_index": 2,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "BM_ReadInt64Column<Repetition::OPTIONAL, Compression::SNAPPY>/65536/1024",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "BM_ReadInt64Column<Repetition::OPTIONAL, Compression::SNAPPY>/65536/1024",
+          "time_unit": "ns",
+          "times": [
+            374215.9791240957
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            1751339010.8739989
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 10,
+            "iterations": 20509,
+            "per_family_instance_index": 1,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "BM_ReadInt64Column<Repetition::OPTIONAL, Compression::ZSTD>/1024/1024",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "BM_ReadInt64Column<Repetition::OPTIONAL, Compression::ZSTD>/1024/1024",
+          "time_unit": "ns",
+          "times": [
+            33721.608412478156
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            303662516.31950516
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 10,
+            "iterations": 19377,
+            "per_family_instance_index": 0,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "BM_ReadInt64Column<Repetition::OPTIONAL, Compression::ZSTD>/1024/16",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "BM_ReadInt64Column<Repetition::OPTIONAL, Compression::ZSTD>/1024/16",
+          "time_unit": "ns",
+          "times": [
+            36067.619547334405
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            283917325.2377482
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 10,
+            "iterations": 480,
+            "per_family_instance_index": 2,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "BM_ReadInt64Column<Repetition::OPTIONAL, Compression::ZSTD>/65536/1024",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "BM_ReadInt64Column<Repetition::OPTIONAL, Compression::ZSTD>/65536/1024",
+          "time_unit": "ns",
+          "times": [
+            1456290.2605878965
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            450024034.7347196
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 1,
+            "iterations": 93564,
+            "per_family_instance_index": 1,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "BM_ReadInt64Column<Repetition::OPTIONAL>/1024/1024",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "BM_ReadInt64Column<Repetition::OPTIONAL>/1024/1024",
+          "time_unit": "ns",
+          "times": [
+            7479.921699932417
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            1369070433.4263067
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 1,
+            "iterations": 72286,
+            "per_family_instance_index": 0,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "BM_ReadInt64Column<Repetition::OPTIONAL>/1024/16",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "BM_ReadInt64Column<Repetition::OPTIONAL>/1024/16",
+          "time_unit": "ns",
+          "times": [
+            9652.331917134483
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            1060866053.7061226
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 1,
+            "iterations": 4849,
+            "per_family_instance_index": 2,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "BM_ReadInt64Column<Repetition::OPTIONAL>/65536/1024",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "BM_ReadInt64Column<Repetition::OPTIONAL>/65536/1024",
+          "time_unit": "ns",
+          "times": [
+            143323.44462727458
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            4572834682.329179
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 8,
+            "iterations": 52199,
+            "per_family_instance_index": 1,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "BM_ReadInt64Column<Repetition::REPEATED, Compression::LZ4>/1024/1024",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "BM_ReadInt64Column<Repetition::REPEATED, Compression::LZ4>/1024/1024",
+          "time_unit": "ns",
+          "times": [
+            13308.237358711056
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            923354952.8449938
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 8,
+            "iterations": 41624,
+            "per_family_instance_index": 0,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "BM_ReadInt64Column<Repetition::REPEATED, Compression::LZ4>/1024/16",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "BM_ReadInt64Column<Repetition::REPEATED, Compression::LZ4>/1024/16",
+          "time_unit": "ns",
+          "times": [
+            16819.65976533221
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            730574364.9893174
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 8,
+            "iterations": 1719,
+            "per_family_instance_index": 2,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "BM_ReadInt64Column<Repetition::REPEATED, Compression::LZ4>/65536/1024",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "BM_ReadInt64Column<Repetition::REPEATED, Compression::LZ4>/65536/1024",
+          "time_unit": "ns",
+          "times": [
+            407091.64402371243
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            1931847587.697657
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 5,
+            "iterations": 52496,
+            "per_family_instance_index": 1,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "BM_ReadInt64Column<Repetition::REPEATED, Compression::SNAPPY>/1024/1024",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "BM_ReadInt64Column<Repetition::REPEATED, Compression::SNAPPY>/1024/1024",
+          "time_unit": "ns",
+          "times": [
+            13324.768059719234
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            922223505.7273937
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 5,
+            "iterations": 41459,
+            "per_family_instance_index": 0,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "BM_ReadInt64Column<Repetition::REPEATED, Compression::SNAPPY>/1024/16",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "BM_ReadInt64Column<Repetition::REPEATED, Compression::SNAPPY>/1024/16",
+          "time_unit": "ns",
+          "times": [
+            16795.737064620793
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            731633870.9991806
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 5,
+            "iterations": 1630,
+            "per_family_instance_index": 2,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "BM_ReadInt64Column<Repetition::REPEATED, Compression::SNAPPY>/65536/1024",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "BM_ReadInt64Column<Repetition::REPEATED, Compression::SNAPPY>/65536/1024",
+          "time_unit": "ns",
+          "times": [
+            428878.6239464956
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            1833698205.4963603
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 11,
+            "iterations": 19254,
+            "per_family_instance_index": 1,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "BM_ReadInt64Column<Repetition::REPEATED, Compression::ZSTD>/1024/1024",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "BM_ReadInt64Column<Repetition::REPEATED, Compression::ZSTD>/1024/1024",
+          "time_unit": "ns",
+          "times": [
+            36048.4499368889
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            340869523.5035458
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 11,
+            "iterations": 17716,
+            "per_family_instance_index": 0,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "BM_ReadInt64Column<Repetition::REPEATED, Compression::ZSTD>/1024/16",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "BM_ReadInt64Column<Repetition::REPEATED, Compression::ZSTD>/1024/16",
+          "time_unit": "ns",
+          "times": [
+            39429.868536816895
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            311647680.8625444
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 11,
+            "iterations": 459,
+            "per_family_instance_index": 2,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "BM_ReadInt64Column<Repetition::REPEATED, Compression::ZSTD>/65536/1024",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "BM_ReadInt64Column<Repetition::REPEATED, Compression::ZSTD>/65536/1024",
+          "time_unit": "ns",
+          "times": [
+            1525787.008654383
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            515433218.15282285
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 2,
+            "iterations": 83291,
+            "per_family_instance_index": 1,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "BM_ReadInt64Column<Repetition::REPEATED>/1024/1024",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "BM_ReadInt64Column<Repetition::REPEATED>/1024/1024",
+          "time_unit": "ns",
+          "times": [
+            8402.250328173193
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            1462553709.3970404
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 2,
+            "iterations": 58081,
+            "per_family_instance_index": 0,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "BM_ReadInt64Column<Repetition::REPEATED>/1024/16",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "BM_ReadInt64Column<Repetition::REPEATED>/1024/16",
+          "time_unit": "ns",
+          "times": [
+            12038.381898788877
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            1020734981.3658843
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 2,
+            "iterations": 3395,
+            "per_family_instance_index": 2,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "BM_ReadInt64Column<Repetition::REPEATED>/65536/1024",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "BM_ReadInt64Column<Repetition::REPEATED>/65536/1024",
+          "time_unit": "ns",
+          "times": [
+            206521.55406273826
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            3807964782.101919
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 6,
+            "iterations": 75365,
+            "per_family_instance_index": 1,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "BM_ReadInt64Column<Repetition::REQUIRED, Compression::LZ4>/1024/1024",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "BM_ReadInt64Column<Repetition::REQUIRED, Compression::LZ4>/1024/1024",
+          "time_unit": "ns",
+          "times": [
+            9221.435653164777
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            888349847.5868489
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 6,
+            "iterations": 68560,
+            "per_family_instance_index": 0,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "BM_ReadInt64Column<Repetition::REQUIRED, Compression::LZ4>/1024/16",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "BM_ReadInt64Column<Repetition::REQUIRED, Compression::LZ4>/1024/16",
+          "time_unit": "ns",
+          "times": [
+            10203.940839650133
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            802868731.8936831
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 6,
+            "iterations": 3070,
+            "per_family_instance_index": 2,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "BM_ReadInt64Column<Repetition::REQUIRED, Compression::LZ4>/65536/1024",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "BM_ReadInt64Column<Repetition::REQUIRED, Compression::LZ4>/65536/1024",
+          "time_unit": "ns",
+          "times": [
+            228579.07461002472
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            2293636308.004188
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 3,
+            "iterations": 72882,
+            "per_family_instance_index": 1,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "BM_ReadInt64Column<Repetition::REQUIRED, Compression::SNAPPY>/1024/1024",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "BM_ReadInt64Column<Repetition::REQUIRED, Compression::SNAPPY>/1024/1024",
+          "time_unit": "ns",
+          "times": [
+            9600.86663275201
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            853333518.7167501
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 3,
+            "iterations": 66448,
+            "per_family_instance_index": 0,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "BM_ReadInt64Column<Repetition::REQUIRED, Compression::SNAPPY>/1024/16",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "BM_ReadInt64Column<Repetition::REQUIRED, Compression::SNAPPY>/1024/16",
+          "time_unit": "ns",
+          "times": [
+            10554.977350215373
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            776115434.106514
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 3,
+            "iterations": 2787,
+            "per_family_instance_index": 2,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "BM_ReadInt64Column<Repetition::REQUIRED, Compression::SNAPPY>/65536/1024",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "BM_ReadInt64Column<Repetition::REQUIRED, Compression::SNAPPY>/65536/1024",
+          "time_unit": "ns",
+          "times": [
+            250794.33332058022
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            2090547591.854903
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 9,
+            "iterations": 22952,
+            "per_family_instance_index": 1,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "BM_ReadInt64Column<Repetition::REQUIRED, Compression::ZSTD>/1024/1024",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "BM_ReadInt64Column<Repetition::REQUIRED, Compression::ZSTD>/1024/1024",
+          "time_unit": "ns",
+          "times": [
+            30505.27635989526
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            268553130.82765496
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 9,
+            "iterations": 22284,
+            "per_family_instance_index": 0,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "BM_ReadInt64Column<Repetition::REQUIRED, Compression::ZSTD>/1024/16",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "BM_ReadInt64Column<Repetition::REQUIRED, Compression::ZSTD>/1024/16",
+          "time_unit": "ns",
+          "times": [
+            31368.47580874513
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            261158462.68567744
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 9,
+            "iterations": 523,
+            "per_family_instance_index": 2,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "BM_ReadInt64Column<Repetition::REQUIRED, Compression::ZSTD>/65536/1024",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "BM_ReadInt64Column<Repetition::REQUIRED, Compression::ZSTD>/65536/1024",
+          "time_unit": "ns",
+          "times": [
+            1338434.112917126
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            391724106.0093572
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 0,
+            "iterations": 130098,
+            "per_family_instance_index": 1,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "BM_ReadInt64Column<Repetition::REQUIRED>/1024/1024",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "BM_ReadInt64Column<Repetition::REQUIRED>/1024/1024",
+          "time_unit": "ns",
+          "times": [
+            5424.930567855916
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            1510042043.5139139
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 0,
+            "iterations": 111111,
+            "per_family_instance_index": 0,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "BM_ReadInt64Column<Repetition::REQUIRED>/1024/16",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "BM_ReadInt64Column<Repetition::REQUIRED>/1024/16",
+          "time_unit": "ns",
+          "times": [
+            6327.506358137558
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            1294637900.362801
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 0,
+            "iterations": 23647,
+            "per_family_instance_index": 2,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "BM_ReadInt64Column<Repetition::REQUIRED>/65536/1024",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "BM_ReadInt64Column<Repetition::REQUIRED>/65536/1024",
+          "time_unit": "ns",
+          "times": [
+            29476.27939843106
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            17786521763.874985
+          ]
+        }
+      ],
+      "name": "parquet-column-io-benchmark"
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,929 @@
+{
+  "suites": [
+    {
+      "benchmarks": [
+        {
+          "counters": {
+            "batches_per_second": 16772.77829742367,
+            "family_index": 1,
+            "iterations": 12,
+            "per_family_instance_index": 0,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "rows_per_second": 16772778.297423668,
+            "run_name": "ExecuteScalarExpressionOverhead/complex_expression/rows_per_batch:1000/real_time/threads:1",
+            "threads": 1
+          },
+          "less_is_better": true,
+          "name": "ExecuteScalarExpressionOverhead/complex_expression/rows_per_batch:1000/real_time/threads:1",
+          "time_unit": "ns",
+          "times": [
+            59620414.83333754
+          ],
+          "unit": "ns",
+          "values": [
+            59620414.83333754
+          ]
+        },
+        {
+          "counters": {
+            "batches_per_second": 744158.8136781643,
+            "family_index": 1,
+            "iterations": 576,
+            "per_family_instance_index": 1,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "rows_per_second": 744158813.6781642,
+            "run_name": "ExecuteScalarExpressionOverhead/complex_expression/rows_per_batch:1000/real_time/threads:192",
+            "threads": 192
+          },
+          "less_is_better": true,
+          "name": "ExecuteScalarExpressionOverhead/complex_expression/rows_per_batch:1000/real_time/threads:192",
+          "time_unit": "ns",
+          "times": [
+            1343799.1751482266
+          ],
+          "unit": "ns",
+          "values": [
+            1343799.1751482266
+          ]
+        },
+        {
+          "counters": {
+            "batches_per_second": 9304.206829806251,
+            "family_index": 1,
+            "iterations": 64,
+            "per_family_instance_index": 2,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "rows_per_second": 93042068.2980625,
+            "run_name": "ExecuteScalarExpressionOverhead/complex_expression/rows_per_batch:10000/real_time/threads:1",
+            "threads": 1
+          },
+          "less_is_better": true,
+          "name": "ExecuteScalarExpressionOverhead/complex_expression/rows_per_batch:10000/real_time/threads:1",
+          "time_unit": "ns",
+          "times": [
+            10747826.421876993
+          ],
+          "unit": "ns",
+          "values": [
+            10747826.421876993
+          ]
+        },
+        {
+          "counters": {
+            "batches_per_second": 185230.4758424376,
+            "family_index": 1,
+            "iterations": 1536,
+            "per_family_instance_index": 3,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "rows_per_second": 1852304758.4243758,
+            "run_name": "ExecuteScalarExpressionOverhead/complex_expression/rows_per_batch:10000/real_time/threads:192",
+            "threads": 192
+          },
+          "less_is_better": true,
+          "name": "ExecuteScalarExpressionOverhead/complex_expression/rows_per_batch:10000/real_time/threads:192",
+          "time_unit": "ns",
+          "times": [
+            539867.9647352572
+          ],
+          "unit": "ns",
+          "values": [
+            539867.9647352572
+          ]
+        },
+        {
+          "counters": {
+            "batches_per_second": 1793.5714765230607,
+            "family_index": 1,
+            "iterations": 125,
+            "per_family_instance_index": 4,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "rows_per_second": 179357147.65230608,
+            "run_name": "ExecuteScalarExpressionOverhead/complex_expression/rows_per_batch:100000/real_time/threads:1",
+            "threads": 1
+          },
+          "less_is_better": true,
+          "name": "ExecuteScalarExpressionOverhead/complex_expression/rows_per_batch:100000/real_time/threads:1",
+          "time_unit": "ns",
+          "times": [
+            5575467.791997653
+          ],
+          "unit": "ns",
+          "values": [
+            5575467.791997653
+          ]
+        },
+        {
+          "counters": {
+            "batches_per_second": 12148.889646201127,
+            "family_index": 1,
+            "iterations": 960,
+            "per_family_instance_index": 5,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "rows_per_second": 1214888964.6201127,
+            "run_name": "ExecuteScalarExpressionOverhead/complex_expression/rows_per_batch:100000/real_time/threads:192",
+            "threads": 192
+          },
+          "less_is_better": true,
+          "name": "ExecuteScalarExpressionOverhead/complex_expression/rows_per_batch:100000/real_time/threads:192",
+          "time_unit": "ns",
+          "times": [
+            823120.4901204227
+          ],
+          "unit": "ns",
+          "values": [
+            823120.4901204227
+          ]
+        },
+        {
+          "counters": {
+            "batches_per_second": 190.20122921194263,
+            "family_index": 1,
+            "iterations": 132,
+            "per_family_instance_index": 6,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "rows_per_second": 190201229.21194264,
+            "run_name": "ExecuteScalarExpressionOverhead/complex_expression/rows_per_batch:1000000/real_time/threads:1",
+            "threads": 1
+          },
+          "less_is_better": true,
+          "name": "ExecuteScalarExpressionOverhead/complex_expression/rows_per_batch:1000000/real_time/threads:1",
+          "time_unit": "ns",
+          "times": [
+            5257589.575752388
+          ],
+          "unit": "ns",
+          "values": [
+            5257589.575752388
+          ]
+        },
+        {
+          "counters": {
+            "batches_per_second": 1149.0735438345214,
+            "family_index": 1,
+            "iterations": 768,
+            "per_family_instance_index": 7,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "rows_per_second": 1149073543.8345213,
+            "run_name": "ExecuteScalarExpressionOverhead/complex_expression/rows_per_batch:1000000/real_time/threads:192",
+            "threads": 192
+          },
+          "less_is_better": true,
+          "name": "ExecuteScalarExpressionOverhead/complex_expression/rows_per_batch:1000000/real_time/threads:192",
+          "time_unit": "ns",
+          "times": [
+            870266.3161688895
+          ],
+          "unit": "ns",
+          "values": [
+            870266.3161688895
+          ]
+        },
+        {
+          "counters": {
+            "batches_per_second": 9188.124839287573,
+            "family_index": 0,
+            "iterations": 6,
+            "per_family_instance_index": 0,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "rows_per_second": 9188124.839287573,
+            "run_name": "ExecuteScalarExpressionOverhead/complex_integer_expression/rows_per_batch:1000/real_time/threads:1",
+            "threads": 1
+          },
+          "less_is_better": true,
+          "name": "ExecuteScalarExpressionOverhead/complex_integer_expression/rows_per_batch:1000/real_time/threads:1",
+          "time_unit": "ns",
+          "times": [
+            108836135.50004156
+          ],
+          "unit": "ns",
+          "values": [
+            108836135.50004156
+          ]
+        },
+        {
+          "counters": {
+            "batches_per_second": 729183.3162511676,
+            "family_index": 0,
+            "iterations": 576,
+            "per_family_instance_index": 1,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "rows_per_second": 729183316.2511677,
+            "run_name": "ExecuteScalarExpressionOverhead/complex_integer_expression/rows_per_batch:1000/real_time/threads:192",
+            "threads": 192
+          },
+          "less_is_better": true,
+          "name": "ExecuteScalarExpressionOverhead/complex_integer_expression/rows_per_batch:1000/real_time/threads:192",
+          "time_unit": "ns",
+          "times": [
+            1371397.2573332293
+          ],
+          "unit": "ns",
+          "values": [
+            1371397.2573332293
+          ]
+        },
+        {
+          "counters": {
+            "batches_per_second": 9279.480363947687,
+            "family_index": 0,
+            "iterations": 66,
+            "per_family_instance_index": 2,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "rows_per_second": 92794803.63947687,
+            "run_name": "ExecuteScalarExpressionOverhead/complex_integer_expression/rows_per_batch:10000/real_time/threads:1",
+            "threads": 1
+          },
+          "less_is_better": true,
+          "name": "ExecuteScalarExpressionOverhead/complex_integer_expression/rows_per_batch:10000/real_time/threads:1",
+          "time_unit": "ns",
+          "times": [
+            10776465.499998957
+          ],
+          "unit": "ns",
+          "values": [
+            10776465.499998957
+          ]
+        },
+        {
+          "counters": {
+            "batches_per_second": 188285.6644506977,
+            "family_index": 0,
+            "iterations": 1536,
+            "per_family_instance_index": 3,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "rows_per_second": 1882856644.5069768,
+            "run_name": "ExecuteScalarExpressionOverhead/complex_integer_expression/rows_per_batch:10000/real_time/threads:192",
+            "threads": 192
+          },
+          "less_is_better": true,
+          "name": "ExecuteScalarExpressionOverhead/complex_integer_expression/rows_per_batch:10000/real_time/threads:192",
+          "time_unit": "ns",
+          "times": [
+            531107.8795708573
+          ],
+          "unit": "ns",
+          "values": [
+            531107.8795708573
+          ]
+        },
+        {
+          "counters": {
+            "batches_per_second": 1786.6812471774317,
+            "family_index": 0,
+            "iterations": 124,
+            "per_family_instance_index": 4,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "rows_per_second": 178668124.7177432,
+            "run_name": "ExecuteScalarExpressionOverhead/complex_integer_expression/rows_per_batch:100000/real_time/threads:1",
+            "threads": 1
+          },
+          "less_is_better": true,
+          "name": "ExecuteScalarExpressionOverhead/complex_integer_expression/rows_per_batch:100000/real_time/threads:1",
+          "time_unit": "ns",
+          "times": [
+            5596969.249997909
+          ],
+          "unit": "ns",
+          "values": [
+            5596969.249997909
+          ]
+        },
+        {
+          "counters": {
+            "batches_per_second": 12346.4300389585,
+            "family_index": 0,
+            "iterations": 960,
+            "per_family_instance_index": 5,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "rows_per_second": 1234643003.89585,
+            "run_name": "ExecuteScalarExpressionOverhead/complex_integer_expression/rows_per_batch:100000/real_time/threads:192",
+            "threads": 192
+          },
+          "less_is_better": true,
+          "name": "ExecuteScalarExpressionOverhead/complex_integer_expression/rows_per_batch:100000/real_time/threads:192",
+          "time_unit": "ns",
+          "times": [
+            809950.7281412954
+          ],
+          "unit": "ns",
+          "values": [
+            809950.7281412954
+          ]
+        },
+        {
+          "counters": {
+            "batches_per_second": 194.50131414723634,
+            "family_index": 0,
+            "iterations": 135,
+            "per_family_instance_index": 6,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "rows_per_second": 194501314.14723635,
+            "run_name": "ExecuteScalarExpressionOverhead/complex_integer_expression/rows_per_batch:1000000/real_time/threads:1",
+            "threads": 1
+          },
+          "less_is_better": true,
+          "name": "ExecuteScalarExpressionOverhead/complex_integer_expression/rows_per_batch:1000000/real_time/threads:1",
+          "time_unit": "ns",
+          "times": [
+            5141353.437041593
+          ],
+          "unit": "ns",
+          "values": [
+            5141353.437041593
+          ]
+        },
+        {
+          "counters": {
+            "batches_per_second": 1152.4321525784737,
+            "family_index": 0,
+            "iterations": 960,
+            "per_family_instance_index": 7,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "rows_per_second": 1152432152.5784738,
+            "run_name": "ExecuteScalarExpressionOverhead/complex_integer_expression/rows_per_batch:1000000/real_time/threads:192",
+            "threads": 192
+          },
+          "less_is_better": true,
+          "name": "ExecuteScalarExpressionOverhead/complex_integer_expression/rows_per_batch:1000000/real_time/threads:192",
+          "time_unit": "ns",
+          "times": [
+            867730.0418619706
+          ],
+          "unit": "ns",
+          "values": [
+            867730.0418619706
+          ]
+        },
+        {
+          "counters": {
+            "batches_per_second": 3130008.423499247,
+            "family_index": 4,
+            "iterations": 2147,
+            "per_family_instance_index": 0,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "rows_per_second": 3130008423.499247,
+            "run_name": "ExecuteScalarExpressionOverhead/ref_only_expression/rows_per_batch:1000/real_time/threads:1",
+            "threads": 1
+          },
+          "less_is_better": true,
+          "name": "ExecuteScalarExpressionOverhead/ref_only_expression/rows_per_batch:1000/real_time/threads:1",
+          "time_unit": "ns",
+          "times": [
+            319487.95808096667
+          ],
+          "unit": "ns",
+          "values": [
+            319487.95808096667
+          ]
+        },
+        {
+          "counters": {
+            "batches_per_second": 67376182.90078346,
+            "family_index": 4,
+            "iterations": 50112,
+            "per_family_instance_index": 1,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "rows_per_second": 67376182900.783455,
+            "run_name": "ExecuteScalarExpressionOverhead/ref_only_expression/rows_per_batch:1000/real_time/threads:192",
+            "threads": 192
+          },
+          "less_is_better": true,
+          "name": "ExecuteScalarExpressionOverhead/ref_only_expression/rows_per_batch:1000/real_time/threads:192",
+          "time_unit": "ns",
+          "times": [
+            14842.03997535117
+          ],
+          "unit": "ns",
+          "values": [
+            14842.03997535117
+          ]
+        },
+        {
+          "counters": {
+            "batches_per_second": 3120230.06671572,
+            "family_index": 4,
+            "iterations": 21868,
+            "per_family_instance_index": 2,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "rows_per_second": 31202300667.1572,
+            "run_name": "ExecuteScalarExpressionOverhead/ref_only_expression/rows_per_batch:10000/real_time/threads:1",
+            "threads": 1
+          },
+          "less_is_better": true,
+          "name": "ExecuteScalarExpressionOverhead/ref_only_expression/rows_per_batch:10000/real_time/threads:1",
+          "time_unit": "ns",
+          "times": [
+            32048.918785420723
+          ],
+          "unit": "ns",
+          "values": [
+            32048.918785420723
+          ]
+        },
+        {
+          "counters": {
+            "batches_per_second": 110195450.20685674,
+            "family_index": 4,
+            "iterations": 798336,
+            "per_family_instance_index": 3,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "rows_per_second": 1101954502068.5674,
+            "run_name": "ExecuteScalarExpressionOverhead/ref_only_expression/rows_per_batch:10000/real_time/threads:192",
+            "threads": 192
+          },
+          "less_is_better": true,
+          "name": "ExecuteScalarExpressionOverhead/ref_only_expression/rows_per_batch:10000/real_time/threads:192",
+          "time_unit": "ns",
+          "times": [
+            907.4784831159722
+          ],
+          "unit": "ns",
+          "values": [
+            907.4784831159722
+          ]
+        },
+        {
+          "counters": {
+            "batches_per_second": 3101753.4640961858,
+            "family_index": 4,
+            "iterations": 216669,
+            "per_family_instance_index": 4,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "rows_per_second": 310175346409.6186,
+            "run_name": "ExecuteScalarExpressionOverhead/ref_only_expression/rows_per_batch:100000/real_time/threads:1",
+            "threads": 1
+          },
+          "less_is_better": true,
+          "name": "ExecuteScalarExpressionOverhead/ref_only_expression/rows_per_batch:100000/real_time/threads:1",
+          "time_unit": "ns",
+          "times": [
+            3223.9828586485937
+          ],
+          "unit": "ns",
+          "values": [
+            3223.9828586485937
+          ]
+        },
+        {
+          "counters": {
+            "batches_per_second": 110317649.54807635,
+            "family_index": 4,
+            "iterations": 7893504,
+            "per_family_instance_index": 5,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "rows_per_second": 11031764954807.635,
+            "run_name": "ExecuteScalarExpressionOverhead/ref_only_expression/rows_per_batch:100000/real_time/threads:192",
+            "threads": 192
+          },
+          "less_is_better": true,
+          "name": "ExecuteScalarExpressionOverhead/ref_only_expression/rows_per_batch:100000/real_time/threads:192",
+          "time_unit": "ns",
+          "times": [
+            90.6473265245015
+          ],
+          "unit": "ns",
+          "values": [
+            90.6473265245015
+          ]
+        },
+        {
+          "counters": {
+            "batches_per_second": 3115622.384854209,
+            "family_index": 4,
+            "iterations": 2175619,
+            "per_family_instance_index": 6,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "rows_per_second": 3115622384854.209,
+            "run_name": "ExecuteScalarExpressionOverhead/ref_only_expression/rows_per_batch:1000000/real_time/threads:1",
+            "threads": 1
+          },
+          "less_is_better": true,
+          "name": "ExecuteScalarExpressionOverhead/ref_only_expression/rows_per_batch:1000000/real_time/threads:1",
+          "time_unit": "ns",
+          "times": [
+            320.9631580711581
+          ],
+          "unit": "ns",
+          "values": [
+            320.9631580711581
+          ]
+        },
+        {
+          "counters": {
+            "batches_per_second": 108235056.61196989,
+            "family_index": 4,
+            "iterations": 77568960,
+            "per_family_instance_index": 7,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "rows_per_second": 108235056611969.89,
+            "run_name": "ExecuteScalarExpressionOverhead/ref_only_expression/rows_per_batch:1000000/real_time/threads:192",
+            "threads": 192
+          },
+          "less_is_better": true,
+          "name": "ExecuteScalarExpressionOverhead/ref_only_expression/rows_per_batch:1000000/real_time/threads:192",
+          "time_unit": "ns",
+          "times": [
+            9.239150708675366
+          ],
+          "unit": "ns",
+          "values": [
+            9.239150708675366
+          ]
+        },
+        {
+          "counters": {
+            "batches_per_second": 45876.511284316264,
+            "family_index": 2,
+            "iterations": 32,
+            "per_family_instance_index": 0,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "rows_per_second": 45876511.284316264,
+            "run_name": "ExecuteScalarExpressionOverhead/simple_expression/rows_per_batch:1000/real_time/threads:1",
+            "threads": 1
+          },
+          "less_is_better": true,
+          "name": "ExecuteScalarExpressionOverhead/simple_expression/rows_per_batch:1000/real_time/threads:1",
+          "time_unit": "ns",
+          "times": [
+            21797647.031235103
+          ],
+          "unit": "ns",
+          "values": [
+            21797647.031235103
+          ]
+        },
+        {
+          "counters": {
+            "batches_per_second": 1507328.3862002965,
+            "family_index": 2,
+            "iterations": 960,
+            "per_family_instance_index": 1,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "rows_per_second": 1507328386.2002964,
+            "run_name": "ExecuteScalarExpressionOverhead/simple_expression/rows_per_batch:1000/real_time/threads:192",
+            "threads": 192
+          },
+          "less_is_better": true,
+          "name": "ExecuteScalarExpressionOverhead/simple_expression/rows_per_batch:1000/real_time/threads:192",
+          "time_unit": "ns",
+          "times": [
+            663425.4414333827
+          ],
+          "unit": "ns",
+          "values": [
+            663425.4414333827
+          ]
+        },
+        {
+          "counters": {
+            "batches_per_second": 11104.839777042067,
+            "family_index": 2,
+            "iterations": 77,
+            "per_family_instance_index": 2,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "rows_per_second": 111048397.77042067,
+            "run_name": "ExecuteScalarExpressionOverhead/simple_expression/rows_per_batch:10000/real_time/threads:1",
+            "threads": 1
+          },
+          "less_is_better": true,
+          "name": "ExecuteScalarExpressionOverhead/simple_expression/rows_per_batch:10000/real_time/threads:1",
+          "time_unit": "ns",
+          "times": [
+            9005082.649345204
+          ],
+          "unit": "ns",
+          "values": [
+            9005082.649345204
+          ]
+        },
+        {
+          "counters": {
+            "batches_per_second": 121084.95925370007,
+            "family_index": 2,
+            "iterations": 960,
+            "per_family_instance_index": 3,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "rows_per_second": 1210849592.5370007,
+            "run_name": "ExecuteScalarExpressionOverhead/simple_expression/rows_per_batch:10000/real_time/threads:192",
+            "threads": 192
+          },
+          "less_is_better": true,
+          "name": "ExecuteScalarExpressionOverhead/simple_expression/rows_per_batch:10000/real_time/threads:192",
+          "time_unit": "ns",
+          "times": [
+            825866.4050130093
+          ],
+          "unit": "ns",
+          "values": [
+            825866.4050130093
+          ]
+        },
+        {
+          "counters": {
+            "batches_per_second": 1503.4450282396815,
+            "family_index": 2,
+            "iterations": 103,
+            "per_family_instance_index": 4,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "rows_per_second": 150344502.82396814,
+            "run_name": "ExecuteScalarExpressionOverhead/simple_expression/rows_per_batch:100000/real_time/threads:1",
+            "threads": 1
+          },
+          "less_is_better": true,
+          "name": "ExecuteScalarExpressionOverhead/simple_expression/rows_per_batch:100000/real_time/threads:1",
+          "time_unit": "ns",
+          "times": [
+            6651390.5145627875
+          ],
+          "unit": "ns",
+          "values": [
+            6651390.5145627875
+          ]
+        },
+        {
+          "counters": {
+            "batches_per_second": 3779.7310538760394,
+            "family_index": 2,
+            "iterations": 192,
+            "per_family_instance_index": 5,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "rows_per_second": 377973105.38760394,
+            "run_name": "ExecuteScalarExpressionOverhead/simple_expression/rows_per_batch:100000/real_time/threads:192",
+            "threads": 192
+          },
+          "less_is_better": true,
+          "name": "ExecuteScalarExpressionOverhead/simple_expression/rows_per_batch:100000/real_time/threads:192",
+          "time_unit": "ns",
+          "times": [
+            2645690.8857960138
+          ],
+          "unit": "ns",
+          "values": [
+            2645690.8857960138
+          ]
+        },
+        {
+          "counters": {
+            "batches_per_second": 103.08303973077159,
+            "family_index": 2,
+            "iterations": 74,
+            "per_family_instance_index": 6,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "rows_per_second": 103083039.73077159,
+            "run_name": "ExecuteScalarExpressionOverhead/simple_expression/rows_per_batch:1000000/real_time/threads:1",
+            "threads": 1
+          },
+          "less_is_better": true,
+          "name": "ExecuteScalarExpressionOverhead/simple_expression/rows_per_batch:1000000/real_time/threads:1",
+          "time_unit": "ns",
+          "times": [
+            9700916.878390105
+          ],
+          "unit": "ns",
+          "values": [
+            9700916.878390105
+          ]
+        },
+        {
+          "counters": {
+            "batches_per_second": 383.5459235868101,
+            "family_index": 2,
+            "iterations": 384,
+            "per_family_instance_index": 7,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "rows_per_second": 383545923.5868101,
+            "run_name": "ExecuteScalarExpressionOverhead/simple_expression/rows_per_batch:1000000/real_time/threads:192",
+            "threads": 192
+          },
+          "less_is_better": true,
+          "name": "ExecuteScalarExpressionOverhead/simple_expression/rows_per_batch:1000000/real_time/threads:192",
+          "time_unit": "ns",
+          "times": [
+            2607249.7151013636
+          ],
+          "unit": "ns",
+          "values": [
+            2607249.7151013636
+          ]
+        },
+        {
+          "counters": {
+            "batches_per_second": 93968.66143946585,
+            "family_index": 3,
+            "iterations": 63,
+            "per_family_instance_index": 0,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "rows_per_second": 93968661.43946585,
+            "run_name": "ExecuteScalarExpressionOverhead/zero_copy_expression/rows_per_batch:1000/real_time/threads:1",
+            "threads": 1
+          },
+          "less_is_better": true,
+          "name": "ExecuteScalarExpressionOverhead/zero_copy_expression/rows_per_batch:1000/real_time/threads:1",
+          "time_unit": "ns",
+          "times": [
+            10641845.746033054
+          ],
+          "unit": "ns",
+          "values": [
+            10641845.746033054
+          ]
+        },
+        {
+          "counters": {
+            "batches_per_second": 1911520.7047570797,
+            "family_index": 3,
+            "iterations": 1536,
+            "per_family_instance_index": 1,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "rows_per_second": 1911520704.7570798,
+            "run_name": "ExecuteScalarExpressionOverhead/zero_copy_expression/rows_per_batch:1000/real_time/threads:192",
+            "threads": 192
+          },
+          "less_is_better": true,
+          "name": "ExecuteScalarExpressionOverhead/zero_copy_expression/rows_per_batch:1000/real_time/threads:192",
+          "time_unit": "ns",
+          "times": [
+            523143.6926167547
+          ],
+          "unit": "ns",
+          "values": [
+            523143.6926167547
+          ]
+        },
+        {
+          "counters": {
+            "batches_per_second": 96227.29392445728,
+            "family_index": 3,
+            "iterations": 676,
+            "per_family_instance_index": 2,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "rows_per_second": 962272939.2445728,
+            "run_name": "ExecuteScalarExpressionOverhead/zero_copy_expression/rows_per_batch:10000/real_time/threads:1",
+            "threads": 1
+          },
+          "less_is_better": true,
+          "name": "ExecuteScalarExpressionOverhead/zero_copy_expression/rows_per_batch:10000/real_time/threads:1",
+          "time_unit": "ns",
+          "times": [
+            1039206.1952662253
+          ],
+          "unit": "ns",
+          "values": [
+            1039206.1952662253
+          ]
+        },
+        {
+          "counters": {
+            "batches_per_second": 1844894.1835970143,
+            "family_index": 3,
+            "iterations": 14400,
+            "per_family_instance_index": 3,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "rows_per_second": 18448941835.970142,
+            "run_name": "ExecuteScalarExpressionOverhead/zero_copy_expression/rows_per_batch:10000/real_time/threads:192",
+            "threads": 192
+          },
+          "less_is_better": true,
+          "name": "ExecuteScalarExpressionOverhead/zero_copy_expression/rows_per_batch:10000/real_time/threads:192",
+          "time_unit": "ns",
+          "times": [
+            54203.65075086783
+          ],
+          "unit": "ns",
+          "values": [
+            54203.65075086783
+          ]
+        },
+        {
+          "counters": {
+            "batches_per_second": 96233.78302211479,
+            "family_index": 3,
+            "iterations": 6677,
+            "per_family_instance_index": 4,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "rows_per_second": 9623378302.21148,
+            "run_name": "ExecuteScalarExpressionOverhead/zero_copy_expression/rows_per_batch:100000/real_time/threads:1",
+            "threads": 1
+          },
+          "less_is_better": true,
+          "name": "ExecuteScalarExpressionOverhead/zero_copy_expression/rows_per_batch:100000/real_time/threads:1",
+          "time_unit": "ns",
+          "times": [
+            103913.61210129267
+          ],
+          "unit": "ns",
+          "values": [
+            103913.61210129267
+          ]
+        },
+        {
+          "counters": {
+            "batches_per_second": 1854161.7572209071,
+            "family_index": 3,
+            "iterations": 152832,
+            "per_family_instance_index": 5,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "rows_per_second": 185416175722.0907,
+            "run_name": "ExecuteScalarExpressionOverhead/zero_copy_expression/rows_per_batch:100000/real_time/threads:192",
+            "threads": 192
+          },
+          "less_is_better": true,
+          "name": "ExecuteScalarExpressionOverhead/zero_copy_expression/rows_per_batch:100000/real_time/threads:192",
+          "time_unit": "ns",
+          "times": [
+            5393.272707225073
+          ],
+          "unit": "ns",
+          "values": [
+            5393.272707225073
+          ]
+        },
+        {
+          "counters": {
+            "batches_per_second": 95544.90648211034,
+            "family_index": 3,
+            "iterations": 67072,
+            "per_family_instance_index": 6,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "rows_per_second": 95544906482.11034,
+            "run_name": "ExecuteScalarExpressionOverhead/zero_copy_expression/rows_per_batch:1000000/real_time/threads:1",
+            "threads": 1
+          },
+          "less_is_better": true,
+          "name": "ExecuteScalarExpressionOverhead/zero_copy_expression/rows_per_batch:1000000/real_time/threads:1",
+          "time_unit": "ns",
+          "times": [
+            10466.28268129854
+          ],
+          "unit": "ns",
+          "values": [
+            10466.28268129854
+          ]
+        },
+        {
+          "counters": {
+            "batches_per_second": 1868701.4344075518,
+            "family_index": 3,
+            "iterations": 1459200,
+            "per_family_instance_index": 7,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "rows_per_second": 1868701434407.5518,
+            "run_name": "ExecuteScalarExpressionOverhead/zero_copy_expression/rows_per_batch:1000000/real_time/threads:192",
+            "threads": 192
+          },
+          "less_is_better": true,
+          "name": "ExecuteScalarExpressionOverhead/zero_copy_expression/rows_per_batch:1000000/real_time/threads:192",
+          "time_unit": "ns",
+          "times": [
+            535.1309639878548
+          ],
+          "unit": "ns",
+          "values": [
+            535.1309639878548
+          ]
+        }
+      ],
+      "name": "arrow-acero-expression-benchmark"
+    }
+  ]
+}

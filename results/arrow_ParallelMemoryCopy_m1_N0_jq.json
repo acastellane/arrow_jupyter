@@ -1,0 +1,198 @@
+{
+  "suites": [
+    {
+      "benchmarks": [
+        {
+          "counters": {
+            "family_index": 0,
+            "iterations": 341,
+            "per_family_instance_index": 0,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "ParallelMemoryCopy/threads:1/real_time",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "ParallelMemoryCopy/threads:1/real_time",
+          "time_unit": "ns",
+          "times": [
+            1895646.1348902036
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            17700788866.875454
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 0,
+            "iterations": 1290,
+            "per_family_instance_index": 7,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "ParallelMemoryCopy/threads:128/real_time",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "ParallelMemoryCopy/threads:128/real_time",
+          "time_unit": "ns",
+          "times": [
+            416919.1131724745
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            80481875116.43039
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 0,
+            "iterations": 827,
+            "per_family_instance_index": 4,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "ParallelMemoryCopy/threads:16/real_time",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "ParallelMemoryCopy/threads:16/real_time",
+          "time_unit": "ns",
+          "times": [
+            814133.8815055325
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            41214882173.86267
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 0,
+            "iterations": 1080,
+            "per_family_instance_index": 8,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "ParallelMemoryCopy/threads:192/real_time",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "ParallelMemoryCopy/threads:192/real_time",
+          "time_unit": "ns",
+          "times": [
+            589725.3490763466
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            56898405423.057365
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 0,
+            "iterations": 507,
+            "per_family_instance_index": 1,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "ParallelMemoryCopy/threads:2/real_time",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "ParallelMemoryCopy/threads:2/real_time",
+          "time_unit": "ns",
+          "times": [
+            1179180.7297822475
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            28455716034.46768
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 0,
+            "iterations": 3101,
+            "per_family_instance_index": 5,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "ParallelMemoryCopy/threads:32/real_time",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "ParallelMemoryCopy/threads:32/real_time",
+          "time_unit": "ns",
+          "times": [
+            225352.22444067037
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            148897718153.3615
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 0,
+            "iterations": 885,
+            "per_family_instance_index": 2,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "ParallelMemoryCopy/threads:4/real_time",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "ParallelMemoryCopy/threads:4/real_time",
+          "time_unit": "ns",
+          "times": [
+            726165.2610262089
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            46207707530.075516
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 0,
+            "iterations": 2024,
+            "per_family_instance_index": 6,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "ParallelMemoryCopy/threads:64/real_time",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "ParallelMemoryCopy/threads:64/real_time",
+          "time_unit": "ns",
+          "times": [
+            296335.6788536711
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            113231157752.58702
+          ]
+        },
+        {
+          "counters": {
+            "family_index": 0,
+            "iterations": 862,
+            "per_family_instance_index": 3,
+            "repetition_index": 0,
+            "repetitions": 1,
+            "run_name": "ParallelMemoryCopy/threads:8/real_time",
+            "threads": 1
+          },
+          "less_is_better": false,
+          "name": "ParallelMemoryCopy/threads:8/real_time",
+          "time_unit": "ns",
+          "times": [
+            771860.8665953686
+          ],
+          "unit": "bytes_per_second",
+          "values": [
+            43472124902.518456
+          ]
+        }
+      ],
+      "name": "arrow-io-memory-benchmark"
+    }
+  ]
+}
